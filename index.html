@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>projeto5-batepapouol</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="topo">
+        <img class="img-logo" src="./BPU.png">
+        <ion-icon data-test="open-participants" class="icon-people" name="people-outline"></ion-icon>
+      </div>
+    
+      <ul class="corpo_mensagem">
+        <li data-test="message">
+          <div class="mensagem">
+            <div class="hora">${mensagens.time}</div>
+            <div class="go-to">${mensagens.go} para ${mensagens.to}</div>
+            <div class="mensagem-texto">${mensagens.text}</div>
+          </div>
+        </li> 
+      </ul>
+   
+      <div class="down">
+        <input data-test="input-message" type="text" class="mensagem-texto">
+        <ion-icon data-test="send-message" class = "icone" oneclick = "adicionarmsg()" name="paper-plane-outline"></ion-icon>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	<script src="./string.js"></script>
+  
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>

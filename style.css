@@ -1,0 +1,105 @@
+.topo{
+    width:331px;
+    Height: 80px;
+    display: flex;
+    background-color: rgba(0, 128, 0, 0.068);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index:1;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0px 22px;
+}
+
+.icon-people{
+    Width:42.19px;
+    Height:30.94px;
+}
+
+.img-logo{
+    Width:75px;
+    Height:53px;
+}
+
+.mensagem, .entrada-saida{
+    width: 375px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color:rgba(128, 128, 128, 0.466);
+}
+
+.status{
+    background-color: gray;
+}
+
+.mensagem-pessoal{
+    background-color: pink;
+}
+
+.hora{
+    width:  375px;
+    Height: 80px;
+}
+
+.go-to{
+    width:  375px;
+    Height: 80px;
+}
+
+.mensagem-texto{
+    width: 100%;
+    height: 30px;
+}
+
+.icone{
+    Width:26px;
+    Height:26px;
+    margin: 1px;
+}
+
+.corpo_mensagem{
+    width: 375px;
+    display: flex;
+    align-items: center;
+    background-color:red;
+    margin: 40px 0px;
+}
+
+.down{
+    display:flex;
+    position: absolute;
+    top: 587px;
+    left: auto;
+    Width:341px;
+    Height:80px;
+    background-color:green;
+    align-items:center;
+    padding: 17px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    Width: 375px;
+    min-height: 667px;
+    background-color:rgb(255, 166, 0);
+    display: flex;
+    flex-direction: column;
+}
+
+.icone{
+    Width:26px;
+    Height:26px;
+}
+
+.adicionar-mensagem button ion-icon {
+    margin-right: 5px;
+  }
+
+  
+
